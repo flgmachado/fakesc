@@ -16,7 +16,9 @@ namespace FakeSC
      * lLinha ->
      * wLinha ->
      * comp_usado_faixa -> Tamanho de largura utilizada na faixa de corte criada
-     * y_faixa ->
+     * y -> Largura do primeiro item de cada faixa
+     * y_faixa -> qtd_paineis + 1
+     * qtd_paineis -> Quantidade de Objetos
      * sobra_comp[j] ->
      * sobra_larg[k] ->
      */
@@ -42,6 +44,12 @@ namespace FakeSC
                 w[indice] = 0;
                 maior = 0;
             }
+        }
+        void cria_faixa(){
+            comp_usado_faixa = 0;
+            y = 0;
+            qtd_paineis = 0;
+            y_faixa = 
         }
 
         static void Main(string[] args)
