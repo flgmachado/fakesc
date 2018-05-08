@@ -15,7 +15,7 @@ namespace FakeSC
      * iLinha ->
      * lLinha ->
      * wLinha ->
-     * comp_usado_faixa ->
+     * comp_usado_faixa -> Tamanho de largura utilizada na faixa de corte criada
      * y_faixa ->
      * sobra_comp[j] ->
      * sobra_larg[k] ->
